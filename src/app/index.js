@@ -11,6 +11,7 @@ angular.module('hitokototter', [
     'ngResource',
     'ngRoute',
     'ui.bootstrap',
+    'firebase',
   ])
   .controller('MainCtrl', MainCtrl)
   .controller('NavbarCtrl', NavbarCtrl)

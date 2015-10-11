@@ -3,7 +3,15 @@
 import MainCtrl from './main/main.controller';
 import NavbarCtrl from '../app/components/navbar/navbar.controller';
 
-angular.module('hitokototter', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ngResource', 'ngRoute', 'ui.bootstrap'])
+angular.module('hitokototter', [
+    'ngAnimate',
+    'ngCookies',
+    'ngTouch',
+    'ngSanitize',
+    'ngResource',
+    'ngRoute',
+    'ui.bootstrap',
+  ])
   .controller('MainCtrl', MainCtrl)
   .controller('NavbarCtrl', NavbarCtrl)
 

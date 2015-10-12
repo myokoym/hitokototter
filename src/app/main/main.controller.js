@@ -15,6 +15,16 @@ class MainCtrl {
         $scope.comment = '';
       }
     };
+    $scope.scrollToFixedOptions = {
+      'marginTop': 10,
+      'zIndex': 100,
+      'preFixed': function() {
+        $(this).addClass('scroll_fixed');
+      },
+      'postFixed': function() {
+        $(this).removeClass('scroll_fixed');
+      },
+    };
   }
 }
 

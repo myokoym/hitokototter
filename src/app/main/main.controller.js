@@ -14,7 +14,7 @@ class MainCtrl {
         });
         $scope.comment = '';
       }
-    }
+    };
   }
 }
 

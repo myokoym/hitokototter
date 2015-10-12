@@ -2,25 +2,23 @@
 
   <div ng-include="'app/components/navbar/navbar.html'"></div>
 
-  <div>
-    <label for="name">Username:</label>
-    <input ng-model="name" type="text" id="name">
-  </div>
-  <div>
-    <label for="comment">Comment:</label>
-    <input ng-model="comment" ng-keydown="addPost($event)" type="text" id="comment">
+  <div class="form">
+    <p>
+      <label for="name">name:</label>
+      <input ng-model="name" type="text" id="name">
+    </p>
+    <p>
+      <label for="comment">comment:</label>
+      <input ng-model="comment" ng-keydown="addPost($event)" type="text" id="comment">
+    </p>
   </div>
 
-  <hr>
-
-  <div class="row">
-    <div class="col-sm-6 col-md-4" ng-repeat="post in posts">
-      <div class="thumbnail">
-        <div class="caption">
-          <h3>{{post.title}}</h3>
+  <div class="timeline">
+    <div class="post" ng-repeat="post in posts">
+        <div class="">
           <p>{{post.comment}}</p>
+          <small>{{post.name}}</small>
         </div>
-      </div>
     </div>
   </div>
 

@@ -13,6 +13,26 @@
   }
 }
 
+.form {
+  padding: 16px;
+  margin: 0px;
+  min-height: 50px;
+  border-style: solid;
+  border-color: #ccc;
+  border-width: 1px;
+  background-color: #fafafa;
+}
+
+.post {
+  padding: 16px;
+  margin: 0px;
+  //background-color: #fafafa;
+  min-height: 50px;
+  border-style: solid;
+  border-color: #ccc;
+  border-width: 0 0 1px 0;
+}
+
 /* Do not remove this comments bellow. It's the markers used by gulp-inject to inject
    all your sass files automatically */
 // injector

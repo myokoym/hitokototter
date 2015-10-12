@@ -13,6 +13,7 @@ angular.module('hitokototter', [
     'ui.bootstrap',
     'firebase',
     'scrollToFixed',
+    'sticky',
   ])
   .controller('MainCtrl', MainCtrl)
   .controller('NavbarCtrl', NavbarCtrl)

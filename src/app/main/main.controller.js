@@ -15,6 +15,10 @@ class MainCtrl {
         $scope.comment = '';
       }
     };
+    $scope.scrollToFixedOptions = {
+      'marginTop': 50,
+      'spacerClass': 'scroll_fixed',
+    };
   }
 }
 
